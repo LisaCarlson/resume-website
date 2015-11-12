@@ -12,4 +12,9 @@ $( document ).ready(function() {
    $('button.collapsed').on('shown.bs.collapse', function () {
      console.log('shown')
    })
+   // $('figure:hover').addClass('animated bounceOutLeft');
+      // $('figure').hover(function() {
+      //   $(this).find('figcaption').toggleClass('slide');
+      // })
+
 });

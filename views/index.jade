@@ -31,18 +31,42 @@ block content
     .container
       .about-section
         .page-header
-          h2.text-center About Me
+          h2.text-center.padding-top About Me
         .row
           .col-md-10.col-md-offset-1
             p Junior Full-Stack Web Developer who knows the value of communication and planning. I aspire to create captivating front-end designs and visualizations built on robust back-end architectures. My goal is to join a tight-knit team that is solving challenging problems, fosters education, uses innovative technologies and contributes to the larger development community.
   section#portfolio
     .portfolio-section
-      h2.text-center Portfolio
-      p Here are a couple of projects born out of Galvanize's classroom assignments. Stay tuned for the addition of my capstone project...
-    .container
-      .row
-        .col-md-4
-          figure
-            img.img-responsive
+      .container
+        h2.text-center Portfolio
+        p Here are a couple of projects born out of Galvanize's classroom assignments. Stay tuned for the addition of my capstone project...
+        .row
+          .col-md-4.col-md-offset-1
+            figure
+              img.img-responsive(src="/images/galleryApp.png")
+              figcaption
+                h3 galleryApp
+                  a.margin-left.btn.btn-default(href="https://stark-cove-1956.herokuapp.com") Visit Site
+          .col-md-4.col-md-offset-1
+            figure
+              img.img-responsive(src="/images/redditClone.png")
+              figcaption
+                h3 redditClone
+                  a.margin-left.btn.btn-default(href="https://stark-cove-1956.herokuapp.com") Visit Site
+  section#contact
+    .contact-section
+      .container
+        h2.text-center Contact Me
+        .row
+          .col-md-6.col-md-offset-3
+            h3.text-center lisa.carlson85@gmail.com
+            h3.text-center 303-589-7699
+        .row
+          .col-md-6.col-md-offset-5
+            .icons
+              i(class='glyphicon glyphicon-envelope')
+              i(class="fa fa-github")
+              i(class="fa fa-twitter")
+
 
           

@@ -4,11 +4,16 @@ html {
 }
 
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-family: 'Marcellus SC', serif;
   width: 100%;
   height: 100%;
   position: relative;
   -webkit-overflow-scrolling:touch;
+}
+
+h1, h2, h3, h4, a, p {
+  font-family: 'Marcellus SC', serif;
 }
 
 a {
@@ -20,6 +25,11 @@ p {
     font-size: 18px;
     line-height: 36px;
     text-align: left;
+}
+
+i, i.fa {
+  font-size: 30px;
+  margin: 20px;
 }
 
 .navbar {
@@ -64,8 +74,12 @@ p {
     -o-background-size: cover;
 }
 
+.padding-top {
+  padding-top: 80px;
+}
+
 .intro-text {
-  font-size: 30px !important;
+  font-size: 30px;
   color: #fff;
 }
 
@@ -114,12 +128,50 @@ h1.greeting {
 
 .about-section {
   background-color: #fff;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .portfolio-section {
-  background-color: #F2F3F5;
+  min-height: 700px;
+  background-color: #d9dadc;
 }
 
 .portfolio-section > h2 {
   padding: 30px;
+}
+
+img {
+  -moz-box-shadow: 5px 5px 10px #333;
+  -webkit-box-shadow: 5px 5px 10px #333;
+  box-shadow: 5px 5px 10px #333; 
+}
+
+.margin-left {
+  margin-left: 20px;
+}
+
+figcaption {
+  position: relative;
+  height:70px;
+  transition: all 200ms ease 0.3s;
+}
+
+figcaption:hover {
+  position: relative;
+  transform: translateY(-50px);
+  background-color: white;
+  width: 100%;
+}
+
+.contact-section {
+  min-height: 700px;
+  width: 100%;
+  padding: 50px 0;
+  margin-top: -150px;
+  background-color: #333;
+}
+
+.contact-section h2, h3, i{
+  color: #fff;
 }
