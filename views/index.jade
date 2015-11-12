@@ -1,5 +1,48 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  nav.navbar.navbar-default.navbar-fixed-top
+    .container-fluid
+      .navbar-header.page-scroll
+        button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar-collapse', aria-expanded='false')
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand(href='#') LISA CARLSON
+      #navbar-collapse.collapse.navbar-collapse
+        ul.nav.navbar-nav.navbar-right
+          li.page-scroll
+            a(href='#about') ABOUT
+          li.page-scroll
+            a(href='#portfolio') PORTFOLIO
+          li.page-scroll
+            a(href='#contact') CONTACT
+  section#intro.intro
+    .intro-body
+      .container
+        .row
+          .col-md-8.col-md-offset-2
+            h1.greeting Hi, I'm Lisa
+            p.intro-text.text-center I turn words into software. I'm passionate about creating clean interfaces for web, mobile, and desktop applications.
+            .page-scroll
+              a.btn.btn-lg.button(href="#portfolio") See my work
+  section#about
+    .container
+      .about-section
+        .page-header
+          h2.text-center About Me
+        .row
+          .col-md-10.col-md-offset-1
+            p Junior Full-Stack Web Developer who knows the value of communication and planning. I aspire to create captivating front-end designs and visualizations built on robust back-end architectures. My goal is to join a tight-knit team that is solving challenging problems, fosters education, uses innovative technologies and contributes to the larger development community.
+  section#portfolio
+    .portfolio-section
+      h2.text-center Portfolio
+      p Here are a couple of projects born out of Galvanize's classroom assignments. Stay tuned for the addition of my capstone project...
+    .container
+      .row
+        .col-md-4
+          figure
+            img.img-responsive
+
+          
