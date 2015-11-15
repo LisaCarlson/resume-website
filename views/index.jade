@@ -17,48 +17,51 @@ block content
           li.page-scroll
             a(href='#portfolio') PORTFOLIO
           li.page-scroll
+            a(href='#skills') SKILLS
+          li.page-scroll
             a(href='#contact') CONTACT
   section#intro.intro
     .intro-body
       .container
         .row
           .col-md-8.col-md-offset-2
-            h1.greeting Lisa Carlson
+            h1.greeting LISA CARLSON
             p.intro-text.text-center I turn words into software. I aspire to create captivating front-end designs and visualizations built on robust back-end architectures.
             .page-scroll
               a.btn.btn-lg.button(href="#portfolio") See my work
   section#about
+    img.flower1(src='images/flower60.png')
     .container
       .about-section
         .page-header
-          h2.text-center.padding-top About Me
+          h2.text-center.padding-top ABOUT ME
         .row
-          .col-md-10.col-md-offset-1
-            p Junior Full-Stack Web Developer who knows the value of communication and planning. I graduate Galvanize's Full-Stack progam in January 2016 and am looking to join a tight-knit team that is solving challenging problems, fosters education, uses innovative technologies and contributes to the larger development community.
+          .col-md-10.col-md-offset-1.about
+            h4.lead.padding-top Junior Full-Stack Web Developer who knows the value of communication and planning. I graduate Galvanize's Full-Stack progam in January 2016 and am looking to join a tight-knit team that is solving challenging problems, fosters education, uses innovative technologies and contributes to the larger development community.
+    img.flower2(src='images/flower602.png')
   section#portfolio
-    .portfolio-section
-      .container
-        h2.text-center Portfolio
-        p Here are a couple of projects born out of Galvanize's classroom assignments. Stay tuned for the addition of my capstone project...
+    .container
+      .portfolio-section
+        h2.text-center.padding-top PORTFOLIO
+        h3.text-danger Here are a couple of projects born out of Galvanize's classroom assignments. Stay tuned for the addition of my capstone project...
         .row
           .col-md-4.col-md-offset-1
-            figure
+            figure.portfolio-img
               img.img-responsive(src="/images/galleryApp.png")
-              figcaption.hover-mask
-                a.margin-left(href="https://stark-cove-1956.herokuapp.com")  
-                  span GALLERYAPP
-                  span VISIT SITE
+              figcaption
+                a.margin-left(href="https://stark-cove-1956.herokuapp.com") GALLERY APP VISIT SITE
           .col-md-4.col-md-offset-1
-            figure
+            figure.portfolio-img
               img.img-responsive(src="/images/redditClone.png")
               figcaption.hover-mask
-                a.margin-left(href="https://stark-cove-1956.herokuapp.com")  
-                  span REDDITCLONE
-                  span VISIT SITE
+                a.margin-left(href="https://gentle-chamber-7959.herokuapp.com/") REDDITCLONE VISIT SITE
+  section#skills
+    .container
+      h2.text-center.padding-top RELEVANT SKILLS
   section#contact
     .contact-section
       .container
-        h2.text-center Contact Me
+        h2.text-center CONTACT ME
         .row
           .col-md-6.col-md-offset-3
             h3.text-center lisa.carlson85@gmail.com
