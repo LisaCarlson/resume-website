@@ -26,5 +26,11 @@ $( document ).ready(function() {
       e.preventDefault();
      scrollToAnchor($(e.target).attr('href'));
   });
+  $("#see-work").click(function() {
+      scrollToAnchor('#portfolio');
+  });
+  $("a.navbar-brand").click(function(){
+    scrollToAnchor('#page-top');
+  })
 });
 

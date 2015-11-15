@@ -9,7 +9,7 @@ block content
           span.icon-bar
           span.icon-bar
           span.icon-bar
-        a.navbar-brand(href='#') LISA CARLSON
+        a.navbar-brand(href='#page-top') LISA CARLSON
       #navbar-collapse.collapse.navbar-collapse
         ul.nav.navbar-nav.navbar-right
           li.page-scroll
@@ -28,7 +28,7 @@ block content
             h1.greeting LISA CARLSON
             p.intro-text.text-center I turn words into software. I aspire to create captivating front-end designs and visualizations built on robust back-end architectures.
             .page-scroll
-              a.btn.btn-lg.button(href="#portfolio") See my work
+              a#see-work.btn.btn-lg.button(href="#portfolio") See my work
   section#about
     img.flower1(src='images/flower60.png')
     .container
@@ -43,8 +43,10 @@ block content
     .container
       .portfolio-section
         h2.text-center.padding-top PORTFOLIO
-        h3.text-danger Here are a couple of projects born out of Galvanize's classroom assignments. Stay tuned for the addition of my capstone project...
         .row
+          .col-md-10.col-md-offset-1
+            h4.text-danger.text-center Here are a couple of projects born out of Galvanize's classroom assignments. Stay tuned for the addition of my capstone project...
+        .row.margin-top
           .col-md-4.col-md-offset-1
             figure.portfolio-img
               img.img-responsive(src="/images/galleryApp.png")
@@ -64,14 +66,17 @@ block content
         h2.text-center CONTACT ME
         .row
           .col-md-6.col-md-offset-3
-            h3.text-center lisa.carlson85@gmail.com
+            h3.text-center.text-danger lisa.carlson85@gmail.com
             h3.text-center 303-589-7699
         .row
-          .col-md-6.col-md-offset-5
+          .col-md-6.col-md-offset-4
             .icons
-              i(class='glyphicon glyphicon-envelope')
-              i(class="fa fa-github")
-              i(class="fa fa-twitter")
+              a(href="https://gmail.com")
+                i(class='glyphicon glyphicon-envelope')
+              a(href="https://github.com/LisaCarlson")
+                i(class="fa fa-github")
+              a(href="https://twitter.com/lisacarlson85")
+                i(class="fa fa-twitter")
 
 
           
