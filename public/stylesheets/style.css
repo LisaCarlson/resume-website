@@ -22,7 +22,6 @@ h1, h2, h3, h4, a, p {
   letter-spacing: 0.0625em;
 }
 
-
 a {
   color: #00B7FF;
 }
@@ -184,13 +183,9 @@ h4.lead {
 }
 
 #portfolio {
-  padding: 100px;
   min-height: 800px;
+  padding: 70px 0;
   background-color: #d9dadc;
-}
-
-.portfolio-section > h2 {
-  padding: 30px;
 }
 
 figure.portfolio-img{
@@ -201,6 +196,10 @@ figure.portfolio-img{
 
 .margin-left {
   margin-left: 20px;
+}
+
+.margin-left-sm {
+  margin-left: 10px;
 }
 
 .padding-top {
@@ -238,12 +237,14 @@ figcaption a {
 }
 
 #skills {
+  padding: 70px 0;
   min-height: 800px;
-  background-color: #333;
+  background-color: #000;
 }
 
-#skills h2 {
-  color: #fff;
+#skills > .col-md-4 {
+  margin: 5px;
+  padding: 0px;
 }
 
 .contact-section {
@@ -277,5 +278,29 @@ figcaption a {
 
 h4.text-danger.text-center {
   text-transform: uppercase;
+}
+
+.block {
+  display: block;
+}
+
+.white {
+  color: #fff;
+}
+
+.wrapper {
+  margin: 30px;
+}
+
+.currently {
+  position: relative;
+}
+
+.spirals {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: -280px;
+  left: 550px;
 }
 

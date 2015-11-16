@@ -16,12 +16,10 @@ $( document ).ready(function() {
     }
   });
 
-
   function scrollToAnchor(id){
       var $el = $(id);
       $('html,body').animate({scrollTop: $el.offset().top},2000);
   }
-
   $("li.page-scroll a").click(function(e) {
       e.preventDefault();
      scrollToAnchor($(e.target).attr('href'));
