@@ -95,6 +95,18 @@ i, i.fa {
     -o-background-size: cover;
 }
 
+.block {
+  display: block;
+}
+
+.white {
+  color: #fff;
+}
+
+.wrapper {
+  margin: 30px;
+}
+
 .padding-top {
   padding-top: 80px;
 }
@@ -109,9 +121,10 @@ i, i.fa {
 }
 
 .intro-body {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
+
 h1.greeting {
   font-size: 70px !important;
   font-weight: 600;
@@ -211,7 +224,6 @@ figure {
   overflow: hidden;
 }
 
-
 figure:hover figcaption {
   bottom: 0px;
 }
@@ -238,7 +250,7 @@ figcaption a {
 
 #skills {
   padding: 70px 0;
-  min-height: 800px;
+  min-height: 700px;
   background-color: #000;
 }
 
@@ -248,7 +260,7 @@ figcaption a {
 }
 
 .contact-section {
-  min-height: 700px;
+  min-height: 670px;
   width: 100%;
   padding: 50px 0;
   background: url(https://morealtitude.files.wordpress.com/2014/03/img_5936.jpg) no-repeat center center scroll;
@@ -278,18 +290,6 @@ figcaption a {
 
 h4.text-danger.text-center {
   text-transform: uppercase;
-}
-
-.block {
-  display: block;
-}
-
-.white {
-  color: #fff;
-}
-
-.wrapper {
-  margin: 30px;
 }
 
 .currently {
