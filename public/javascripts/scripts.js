@@ -23,7 +23,8 @@ $( document ).ready(function() {
       e.preventDefault();
      scrollToAnchor($(e.target).attr('href'));
   });
-  $("#see-work").click(function() {
+  $("#see-work").click(function(e) {
+      e.preventDefault();
       scrollToAnchor('#portfolio');
   });
   $("a.navbar-brand").click(function(){

@@ -37,7 +37,7 @@ block content
           h2.text-center.padding-top ABOUT ME
         .row
           .col-md-10.col-md-offset-1.about
-            h4.lead.padding-top Junior Full-Stack Web Developer who knows the value of communication and planning. I graduate Galvanize's Full-Stack program in January 2016 and am looking to join a tight-knit team in the Boulder/Denver area that is solving challenging problems, fosters education, uses innovative technologies and contributes to the larger development community.
+            h4.lead.padding-top Full-Stack Web Developer seeking to contribute on a world class development team. I am motivated by finding simple elegant solutions to challenging problems. I aspire to create applications with robust back-end architectures, with captivating front-end designs and visualizations.
     img.flower2(src='images/flower602.png')
   section#portfolio
     h2.text-center.padding-top PORTFOLIO
@@ -45,19 +45,36 @@ block content
       .portfolio-section
         .row
           .col-md-10.col-md-offset-1
-            h4.text-danger.text-center A couple of projects born out of Galvanize's classroom assignments. Stay tuned for the addition of my capstone project...
+            h4.text-danger.text-center Work completed at Human Design.
+        .row.margin-top
+          .col-md-6
+            figure.portfolio-img
+              img.img-responsive(src="/images/humandesign.png")
+              figcaption
+                a.margin-left(href="http://humandesign.agency" target="_blank") HUMAN DESIGN visit site
+            h4.margin-top.text-center A fully responsive site, combining custom interactive JavaScript and visual effects. Built with HTML5, CSS3, JavaScript and jQuery
+          .col-md-6
+            figure.portfolio-img
+              img.img-responsive(src="/images/bouldercenter.png")
+              figcaption.hover-mask
+                a.margin-left(href="http://bouldercentre.com" target="_blank") BoulderCentre visit site
+            h4.margin-top.text-center A website highlighting the merger between MapletonHill Orthopaedics and Boulder Orthopedics. Due to the client’s request, the site was built in the Squarespace CMS
+
+        .row.margin-top
+          .col-md-10.col-md-offset-1
+            h4.text-danger.text-center A couple of projects born out of Galvanize's classroom assignments.
         .row.margin-top
           .col-md-6
             figure.portfolio-img
               img.img-responsive(src="/images/galleryApp.png")
               figcaption
-                a.margin-left(href="https://stark-cove-1956.herokuapp.com") GALLERY APP VISIT SITE
-            h4.margin-top.text-center An application to manage photos that can be grouped into galleries. Sign in as test@gmail.com, password is 'password' to see a seeded example.
+                a.margin-left(href="https://stark-cove-1956.herokuapp.com" target="_blank") GALLERY APP visit site
+            h4.margin-top.text-center An Express app using MongoDB to manage photos that can be grouped into galleries. Sign in as test@gmail.com, password is 'password' to see a seeded example.
           .col-md-6
             figure.portfolio-img
               img.img-responsive(src="/images/redditClone.png")
               figcaption.hover-mask
-                a.margin-left(href="https://gentle-chamber-7959.herokuapp.com") REDDITCLONE VISIT SITE
+                a.margin-left(href="https://gentle-chamber-7959.herokuapp.com" target="_blank") REDDITCLONE visit site
             h4.margin-top.text-center A reddit clone built in Angular complete with posts, comments, searching, sorting and animations.
   section#skills
     h2.text-center.padding-top.white RELEVANT SKILLS
@@ -97,17 +114,21 @@ block content
             span.white.margin-left-sm Test Driven Development
           i.glyphicon.glyphicon-chevron-right.text-danger.block
             span.white.margin-left-sm Git/Github
-      .row
-        .col-md-12.currently
-          img.spirals(src='images/spirals.png')
-          h2.text-center.text-warning CURRENTLY LEARNING
-        .col-md-6.col-md-offset-3.current-lessons
-          i.glyphicon.glyphicon-chevron-right.text-danger
-            span.white.margin-left-sm SASS
-          i.glyphicon.glyphicon-chevron-right.text-danger
-            span.white.margin-left-sm Agile
-          i.glyphicon.glyphicon-chevron-right.text-danger
-            span.white.margin-left-sm Canvas
+          i.glyphicon.glyphicon-chevron-right.text-danger.block
+            span.white.margin-left-sm API Integration
+          i.glyphicon.glyphicon-chevron-right.text-danger.block
+            span.white.margin-left-sm Debugging
+      //- .row
+      //-   .col-md-12.currently
+      //-     img.spirals(src='images/spirals.png')
+      //-     h2.text-center.text-warning CURRENTLY LEARNING
+      //-   .col-md-6.col-md-offset-3.current-lessons
+      //-     i.glyphicon.glyphicon-chevron-right.text-danger
+      //-       span.white.margin-left-sm SASS
+      //-     i.glyphicon.glyphicon-chevron-right.text-danger
+      //-       span.white.margin-left-sm Agile
+      //-     i.glyphicon.glyphicon-chevron-right.text-danger
+      //-       span.white.margin-left-sm Canvas
   section#contact
     .contact-section
       .container
@@ -118,11 +139,11 @@ block content
         .row
           .col-md-6.col-md-offset-4
             .icons
-              a(href="https://gmail.com")
+              a(href="https://gmail.com" target="_blank")
                 i(class='glyphicon glyphicon-envelope')
-              a(href="https://github.com/LisaCarlson")
+              a(href="https://github.com/LisaCarlson" target="_blank")
                 i(class="fa fa-github")
-              a(href="https://twitter.com/lisacarlson85")
+              a(href="https://twitter.com/lisacarlson85" target="_blank")
                 i(class="fa fa-twitter")
 
 
