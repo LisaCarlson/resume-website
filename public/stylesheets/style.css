@@ -41,10 +41,13 @@ i, i.fa {
 .navbar {
   padding: 20px;
   border-bottom: 0;
-  background: 0 0;
+  background-color: none;
   -webkit-transition: background .3s ease-in-out,padding .3s ease-in-out;
   -moz-transition: background .3s ease-in-out,padding .3s ease-in-out;
   transition: background .3s ease-in-out,padding .3s ease-in-out;
+  @media(max-width:760px) {
+    background-color: #fff;
+  }
 }
 
 .top-nav-collapse {
@@ -273,6 +276,11 @@ figcaption a {
 
 .contact-section h2, h3, i{
   color: #000;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: space-around;
 }
 
 .icons i {

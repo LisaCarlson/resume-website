@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+  var width = $(document).width();
   $('.flower1,.flower2').hide();
    $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
@@ -8,10 +9,13 @@ $( document ).ready(function() {
       $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
     if ($(".navbar").offset().top > 715) {
-      $('.flower1, .flower2').fadeIn(2000);
-      setTimeout(function(){
-        $('.flower1, .flower2').css({'transform':'scale(1.5)', 'transition': 'cubic-bezier(.17,.67,.83,.67)', 'transition-duration':'2s'});
-      }, 1000); 
+      if (width > 900) {
+        console.log('here')
+        $('.flower1, .flower2').fadeIn(2000);
+      }
+      // setTimeout(function(){
+      //   $('.flower1, .flower2').css({'transform':'scale(1.5)', 'transition': 'cubic-bezier(.17,.67,.83,.67)', 'transition-duration':'2s'});
+      // }, 1000); 
     }
   });
 
