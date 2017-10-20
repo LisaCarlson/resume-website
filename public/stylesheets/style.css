@@ -208,6 +208,7 @@ figure.portfolio-img{
   -moz-box-shadow: 5px 5px 10px #333;
   -webkit-box-shadow: 5px 5px 10px #333;
   box-shadow: 5px 5px 10px #333; 
+  max-height: 310px;
 }
 
 .margin-left {
