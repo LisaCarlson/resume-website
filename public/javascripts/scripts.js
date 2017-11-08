@@ -10,7 +10,6 @@ $( document ).ready(function() {
     }
     if ($(".navbar").offset().top > 715) {
       if (width > 900) {
-        console.log('here')
         $('.flower1, .flower2').fadeIn(2000);
       }
       // setTimeout(function(){
